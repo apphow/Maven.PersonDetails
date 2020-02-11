@@ -15,15 +15,17 @@ public class PersonHandler {
         // create a `counter`
 
         int counter = 0;
+        String currentPerson = "";
 
 
         while (counter < personArray.length) {
-            for (counter = 0; counter < personArray.length; counter++) {
+            //for (counter = 0; counter < personArray.length; counter++) {
 
-                result += personArray[0];
-                
 
-            }
+                result += personArray[counter];
+                counter++;
+
+           // }
             // while `counter` is less than length of array
             // begin loop
 
