@@ -30,7 +30,10 @@ public class PersonHandlerTest {
 
     @Test
     public void testWhileLoop() {
+
         // : When
+
+
         String actual = personHandler.whileLoop();
 
         // : Then
@@ -41,6 +44,7 @@ public class PersonHandlerTest {
     @Test
     public void testForLoop() {
         // : When
+
         String actual = personHandler.forLoop();
 
         // : Then
@@ -51,9 +55,11 @@ public class PersonHandlerTest {
     @Test
     public void testForEachLoop() {
         // : When
+
         String actual = personHandler.forEachLoop();
 
         // : Then
+
         Assert.assertEquals(expected, actual);
     }
 

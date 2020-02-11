@@ -13,6 +13,16 @@ public class PersonHandler {
     public String whileLoop() {
         String result = "";
         // create a `counter`
+        String currentPerson = "";
+        int counter;
+
+        while (counter < personArray.length ){
+         for (counter = 0; counter< personArray.length; counter++) {
+
+                result = currentPerson;
+
+        }
+// while array.get(i-1));
         // while `counter` is less than length of array
             // begin loop
 
@@ -23,7 +33,6 @@ public class PersonHandler {
             // end loop
         return result;
     }
-
 
 
     public String forLoop() {
