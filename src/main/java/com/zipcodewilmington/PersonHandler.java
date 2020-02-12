@@ -13,14 +13,10 @@ public class PersonHandler {
     public String whileLoop() {
         String result = "";
         // create a `counter`
-
         int counter = 0;
-        String currentPerson = "";
-
 
         while (counter < personArray.length) {
             //for (counter = 0; counter < personArray.length; counter++) {
-
 
                 result += personArray[counter];
                 counter++;
@@ -37,15 +33,12 @@ public class PersonHandler {
         }
         return result;
     }
-
-
         public String forLoop() {
             String result = "";
-            int counter = 0;
-            String currentPerson = "";
+            int counter;
 
-            for (counter = 0; counter == personArray.length; counter++) {
-                result = currentPerson;
+            for (counter = 0; counter < personArray.length; counter++) {
+                result += personArray[counter];
             }
 
             // identify initial value
