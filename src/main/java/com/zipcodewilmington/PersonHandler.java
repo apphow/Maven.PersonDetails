@@ -11,14 +11,14 @@ public class PersonHandler {
     }
 
     public String whileLoop() {
-        String result = "";
+        String currentPerson = "";
         // create a `counter`
         int counter = 0;
 
         while (counter < personArray.length) {
             //for (counter = 0; counter < personArray.length; counter++) {
 
-                result += personArray[counter];
+                currentPerson += personArray[counter];
                 counter++;
 
            // }
@@ -31,7 +31,7 @@ public class PersonHandler {
 
             // end loop
         }
-        return result;
+        return currentPerson;
     }
         public String forLoop() {
             String result = "";
